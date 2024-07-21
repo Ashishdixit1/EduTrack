@@ -1,12 +1,12 @@
-package net.javaguides.sms.service.impl;
+package net.sms.service.impl;
 
 import java.util.List;
 
+import net.sms.entity.Student;
+import net.sms.repository.StudentRepository;
 import org.springframework.stereotype.Service;
 
-import net.javaguides.sms.entity.Student;
-import net.javaguides.sms.repository.StudentRepository;
-import net.javaguides.sms.service.StudentService;
+import net.sms.service.StudentService;
 
 @Service
 public class StudentServiceImpl implements StudentService{
